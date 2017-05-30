@@ -525,8 +525,8 @@ var myChart = new Chart(ctx, {
 &lt;p&gt;&lt;strong&gt;Guitar&lt;/strong&gt; Band at Michigan State University&lt;/p&gt;
 &lt;hr /&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;mailto:email@example.com&#34;&gt;email@example.com&lt;/a&gt; • +00 (0)00 000 0000 • XX years old&lt;br /&gt;
-address - Mytown, Mycountry&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:debdebay@emsu.edu&#34;&gt;debdebay@emsu.edu&lt;/a&gt; • +1 (517) 930 0792 • 23 years old&lt;br /&gt;
+address - East Lansing, Michigan, USA&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;/body&gt;
