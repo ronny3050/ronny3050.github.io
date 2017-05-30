@@ -1,10 +1,403 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+   
+  
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed,
+   figure, figcaption, footer, header, hgroup,
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+   	margin: 0;
+   	border: 0;
+   	font-size: 100%;
+   	font: inherit;
+   	vertical-align: baseline;
+   }
+    
+   article, aside, details, figcaption, figure,
+   footer, header, hgroup, menu, nav, section {
+   	display: block;
+   }
+  
+   
+   
+  @font-face {
+    font-family: 'RalewayRegular';
+    src:
+      url('fonts/Raleway-Regular.ttf')
+    	format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+   
+  @font-face {
+    font-family: 'RalewaySemiBold';
+    src:
+      url('fonts/Raleway-SemiBold.ttf')
+    	format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+   
+  @font-face {
+    font-family: 'RalewayBold';
+    src:
+      url('fonts/Raleway-Bold.ttf')
+    	format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+   
+  @font-face {
+    font-family: 'RalewayBlack';
+    src:
+      url('fonts/Raleway-Black.ttf')
+    	format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+  }
+  
+   
+  @font-face {
+    font-family: 'RalewayRegularItalic';
+    src:
+      url('fonts/Raleway-Italic.ttf')
+    	format('truetype');
+    font-weight: normal;
+    font-style: italic, oblique;
+  }
+  
+   
+  @font-face {
+    font-family: 'RalewaySemiBoldItalic';
+    src:
+      url('fonts/Raleway-SemiBoldItalic.ttf')
+    	format('truetype');
+    font-weight: 200;
+    font-style: italic, oblique;
+  }
+  
+   
+  @font-face {
+    font-family: 'RalewayBoldItalic';
+    src:
+      url('fonts/Raleway-BoldItalic.ttf')
+    	format('truetype');
+    font-weight: 600;
+    font-style: italic, oblique;
+  }
+  
+  
+  
+  body {
+      font-family: 'RalewayRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      margin: 0;
+      padding: 0;
+  }
+  
+  strong {
+    font-family: 'RalewayBold';
+  }
+  
+  em {
+    font-family: 'RalewayRegularItalic';
+  }
+  
+  .resume {
+    width: 47.6%;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    color: #131313;
+  }
+  
+  .headerBox {
+    background: #F5F5F5;
+    left:0;
+    right:0;
+    top:0;
+    width: 100%;
+    height: 110px;
+    line-height: 1.3;
+    color: #9c9b9b;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+   
+  h1 {
+      letter-spacing: 20px;
+      font-family: 'RalewayBold';
+      font-size: 55px;
+      color: #000000;
+      vertical-align: middle;
+  }
+  h1:hover {
+      color: #3A3A3A;
+  }
+  
+   
+  h2 {
+       
+      color: #000000;
+      font-family: "RalewayBold";
+      font-size: 24px;
+      font-weight: bold;
+      font-style: normal;
+      margin-bottom: 2%;
+      letter-spacing: 6px;
+  }
+  
+  .education {
+    color: #000000;
+    font-family: "RalewayBold";
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    letter-spacing: 6px;
+  }
+  
+  
+   
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-top: 1%;
+      margin-right:1%;
+      margin-bottom: 3%;
+      width: 100%;
+      height: 1px;
+       
+      background-color: #000000;
+  }
+   
+  
+   
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+       
+  }
+  dd {
+      margin-left: 17%;
+      margin-bottom:10px;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:10px;
+      font-style: normal;
+      font-weight: normal;
+  }
+  
+  li {
+    margin-bottom: 6px;
+  }
+  
+   
+  blockquote {
+      text-align: center
+  }
+  
+   
+  a {
+      text-decoration: none;
+      color: #c12267;
+  }
+  a:hover, a:active {
+      color: #c12267;
+      text-decoration: none;
+      text-shadow: 0.5px 0.5px 0.5px #333;
+  }
+  
+   
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
 <body>
-
-<h1>Resume</h1>
-
-<p>My first paragraph.</p>
-
+<div class="headerBox">
+<h1 id="debayan-deb">DEBAYAN DEB</h1>
+<p>PhD STUDENT / COMPUTER SCIENCE AND ENGINEERING</p>
+</div>
+<div class="resume">
+<div class="education">
+<p>EDUCATION</p>
+</div>
+<dl>
+<dt>2016 - 2021 (expected)</dt>
+<dd><p><strong>PhD, Computer Science and Engineering</strong></p>
+<p>Michigan State University (East Lansing, MI)</p>
+<p><em>Biometrics</em></p>
+<p><em>Pattern Recognition and Image Processing Laboratory (PRIP), MSU</em></p>
+<p><em>Advisor: Prof. <a href="https://www.cse.msu.edu/~jain/" title="Dr. Jain&#39;s Homepage">Anil K. Jain</a></em></p>
+</dd>
+<dt>2012 - 2016</dt>
+<dd><p><strong>BS, Computer Science and Engineering</strong></p>
+<p>Michigan State University (East Lansing, MI)</p>
+<p><em>Minor: Mathematics</em></p>
+<p><em>Minor: Game Design and Development</em></p>
+</dd>
+</dl>
+<h2 id="experience">EXPERIENCE</h2>
+<dl>
+<dt>2017</dt>
+<dd><p><strong>Intern</strong></p>
+<p><a href="http://www.rankone.io">Rank One Computing (Denver, CO)</a></p>
+</dd>
+<dt>2015</dt>
+<dd><p><strong>Capstone</strong></p>
+<p><a href="https://www.techsmith.com/">Techsmith (Okemos, MI)</a></p>
+<p>Developed an Intelligent Real-World Text Recognition Application.</p>
+<ul>
+<li>Using OCR technology, detect and recognize text in the real world and classify type of text as contacts, address, email, general text</li>
+<li>Works on any device with Windows 10 - PC, Microsoft Surface, Windows Phone, Raspberry Pi</li>
+</ul>
+</dd>
+<dt>2014 - 2016</dt>
+<dd><p><strong>Project Researcher</strong></p>
+<p>Michigan State University (East Lansing, MI)</p>
+<p>Developed an algorithm to recognize street signs for vehicular vision.</p>
+<ul>
+<li>Advisor: Professor Arun Ross</li>
+</ul>
+</dd>
+<dt>2014</dt>
+<dd><p><strong>Intern</strong></p>
+<p><a href="http://www.redcedartech.com/">Red Cedar Technology (East Lansing, MI)</a></p>
+<p>QA testing, bug fixing, and backend scripting using Python.</p>
+</dd>
+<dt>2012</dt>
+<dd><p><strong>Project Researcher</strong></p>
+<p>Indian Institute of Technology (Kanpur, India)</p>
+<p>Research on Genetic Algorithms.</p>
+<ul>
+<li>Developed a Mutation operator and 5 different mutation schemes</li>
+</ul>
+</dd>
+</dl>
+<h2 id="technical-experience">TECHNICAL EXPERIENCE</h2>
+<dl>
+<dt>Publications</dt>
+<dd><p><strong>Conference</strong></p>
+<p><em>D. Deb, L. Best-Rowden, A. K. Jain, &quot;Face Recognition Performance Under Aging&quot;, to appear in CVPR, Workshop on Biometrics, 2017.</em></p>
+<p><em>D. Deb and K. Deb., Investigation of Mutation Schemes in Real- Parameter Genetic Algorithms., Proceedings of Swarm, Evolutionary and Memetic Computing Conference (SEMCCO-2012), Heidelberg: Springer. 2012</em> <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=2738057908192451281&amp;as_sdt=5"><img src="https://img.shields.io/badge/cited%20by-5-blue.svg?style=flat" title="Cited by 5" alt="alt text" /></a></p>
+<p><strong>Journal</strong></p>
+<p><em>K. Deb and D. Deb, Analyzing Mutation Schemes for Real- Parameter Genetic Algorithms., International Journal of Artificial Intelligence and Soft Computing (IJAISC), Inderscience Publishers. 2012</em> <a href="https://scholar.google.com/scholar?oi=bibs&amp;hl=en&amp;cites=2738057908192451281&amp;as_sdt=5"><img src="https://img.shields.io/badge/cited%20by-40-brightgreen.svg?style=flat" title="Cited by 40" alt="alt text" /></a></p>
+</dd>
+<dt><a href="http://michaelteeuw.nl/tagged/magicmirror" title="MagicMirror Website">MagicMirror²</a></dt>
+<dd>Developed various applications such as <a href="https://github.com/ronny3050/phone-notification-mirror">phone notification displays</a>, <a href="https://github.com/ronny3050/email-mirror/">email client</a>, <a href="https://github.com/ronny3050/MMM-voice">voice recognition</a>, and <a href="https://github.com/ronny3050/internet-monitor">internet statistics monitoring</a> for <a href="http://michaelteeuw.nl/tagged/magicmirror" title="MagicMirror Website">MagicMirror²</a>. <a href="http://michaelteeuw.nl/tagged/magicmirror" title="MagicMirror Website">MagicMirror²</a> is an open source modular smart mirror platform that has a monitor display behind a regular mirror.
+</dd>
+<dt>Programming Languages</dt>
+<dd><p><strong>Proficient in</strong></p>
+<p><em>languages:</em> C, C++, C#, Python, Java, JavaScript, Matlab, R, HTML, CSS</p>
+<p><em>technologies:</em> Android, iOS, MySQL, SQLite, LATEX, Bash Scripting, Git, Vim, jQuery, Bootstrap, NodeJS, Windows, Linux, OSX, Emacs, Flash, Photoshop</p>
+</dd>
+<dd><p><strong>Experienced in</strong></p>
+<p><em>languages:</em> PHP, Objective C, x86 assembly</p>
+<p><em>technologies:</em> Apache, Nginx, Visual Studio, .NET</p>
+</dd>
+</dl>
+<h2 id="research-highlights">RESEARCH HIGHLIGHTS</h2>
+<script src="Chart.bundle.min.js"></script>
+<canvas id="myChart" width="50" height="25">
+</canvas>
+<script>
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ["2013", "2014", "2015", "2016", "2017"],
+        datasets: [{
+            label: 'Citation Count',
+            data: [4, 3, 10, 25, 3],
+            backgroundColor: [
+                'rgba(54, 162, 235, 0.4)',
+                'rgba(54, 162, 235, 0.4)',
+                'rgba(54, 162, 235, 0.4)',
+                'rgba(54, 162, 235, 0.4)',
+                'rgba(54, 162, 235, 0.4)'
+            ],
+            borderColor: [
+                'rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(54, 162, 235, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    max: 30
+                }
+            }]
+        },
+        responsiveAnimationDuration: 500
+    }
+});
+</script>
+<h2 id="accomplishments">ACCOMPLISHMENTS</h2>
+<ul>
+<li><p>Presented poster on “Benchmarking Face Recognition Performance&quot; in Engineering Symposium, Michigan State University</p></li>
+<li><p>Won TechSmith Screencast Award for the Best Capstone Video in Design Day (December 2015).</p></li>
+<li><p>Developed a cloud-based framework using Amazon Web Services (AWS) for training and recognizing objects using OpenComputerVision (OpenCV).</p></li>
+<li><p>Participated at HackIllinois and developed an Android mobile application “RemoteLy&quot; which converts the phone into a motion controller for games.</p></li>
+<li><p>Designed and programmed a physics game with Professor Hendrik Schatz at the National Superconducting Cyclotron Laboratory, Michigan State University</p></li>
+<li><p>Made a physics model explaining a concept for people with disabilities and donated it to the Resource Center for Persons with Disabilities (RCPD) at Michigan State University as a part of volunteering.</p></li>
+</ul>
+<h2 id="languages">LANGUAGES</h2>
+<ul>
+<li><p>Proficient</p>
+<ul>
+<li>English</li>
+<li>Hindi</li>
+<li>Bengali</li>
+</ul></li>
+<li><p>Intermediate</p>
+<ul>
+<li>French</li>
+</ul></li>
+</ul>
+<h2 id="interests">INTERESTS</h2>
+<p><strong>Soccer</strong> Intramural League at Michigan State University</p>
+<p><strong>Guitar</strong> Band at Michigan State University</p>
+<hr />
+<blockquote>
+<p><a href="mailto:email@example.com">email@example.com</a> • +00 (0)00 000 0000 • XX years old<br />
+address - Mytown, Mycountry</p>
+</blockquote>
+</div>
 </body>
 </html>
