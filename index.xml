@@ -387,7 +387,7 @@
 &lt;dd&gt;&lt;p&gt;&lt;strong&gt;PhD, Computer Science and Engineering&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Michigan State University (East Lansing, MI)&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Biometrics&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Pattern Recognition and Image Processing Laboratory (PRIP), MSU&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://biometrics.cse.msu.edu&#34;&gt;Pattern Recognition and Image Processing Laboratory (PRIP)&lt;/a&gt;, MSU&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Advisor: Prof. &lt;a href=&#34;https://www.cse.msu.edu/~jain/&#34; title=&#34;Dr. Jain&amp;#39;s Homepage&#34;&gt;Anil K. Jain&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/dd&gt;
 &lt;dt&gt;2012 - 2016&lt;/dt&gt;
@@ -525,7 +525,7 @@ var myChart = new Chart(ctx, {
 &lt;p&gt;&lt;strong&gt;Guitar&lt;/strong&gt; Band at Michigan State University&lt;/p&gt;
 &lt;hr /&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;mailto:debdebay@emsu.edu&#34;&gt;debdebay@emsu.edu&lt;/a&gt; • +1 (517) 930 0792 • 23 years old&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:debdebay@msu.edu&#34;&gt;debdebay@msu.edu&lt;/a&gt; • +1 (517) 930 0792 • 23 years old&lt;br /&gt;
 address - East Lansing, Michigan, USA&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
