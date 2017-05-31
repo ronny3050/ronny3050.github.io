@@ -249,6 +249,10 @@
     font-family: &#39;RalewayRegularItalic&#39;;
   }
   
+  .semiBoldItalics {
+    font-family: &#39;RalewaySemiBoldItalic&#39;;
+  }
+  
   .resume {
     width: 47.6%;
     margin: auto;
@@ -269,6 +273,7 @@
     color: #9c9b9b;
     text-align: center;
     font-size: 22px;
+    letter-spacing: 20px;
   }
   
   /* Title of the resume */
@@ -343,6 +348,20 @@
       font-weight: normal;
   }
   
+  pre {
+    font-family: monospace;
+    font-size: 18px;
+  }
+  
+  code {
+      width: 6px;
+      white-space: pre-wrap;       /* Since CSS 2.1 */
+      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  }
+  
   li {
     margin-bottom: 6px;
   }
@@ -385,7 +404,7 @@
 &lt;dl&gt;
 &lt;dt&gt;2016 - 2021 (expected)&lt;/dt&gt;
 &lt;dd&gt;&lt;p&gt;&lt;strong&gt;PhD, Computer Science and Engineering&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Michigan State University (East Lansing, MI)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.msu.edu&#34;&gt;Michigan State University&lt;/a&gt; (East Lansing, MI)&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Biometrics&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;a href=&#34;http://biometrics.cse.msu.edu&#34;&gt;Pattern Recognition and Image Processing Laboratory (PRIP)&lt;/a&gt;, MSU&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Advisor: Prof. &lt;a href=&#34;https://www.cse.msu.edu/~jain/&#34; title=&#34;Dr. Jain&amp;#39;s Homepage&#34;&gt;Anil K. Jain&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
@@ -438,10 +457,13 @@
 &lt;dl&gt;
 &lt;dt&gt;Publications&lt;/dt&gt;
 &lt;dd&gt;&lt;p&gt;&lt;strong&gt;Conference&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;D. Deb, L. Best-Rowden, A. K. Jain, &amp;quot;Face Recognition Performance Under Aging&amp;quot;, to appear in CVPR, Workshop on Biometrics, 2017.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;D. Deb and K. Deb., Investigation of Mutation Schemes in Real- Parameter Genetic Algorithms., Proceedings of Swarm, Evolutionary and Memetic Computing Conference (SEMCCO-2012), Heidelberg: Springer. 2012&lt;/em&gt; &lt;a href=&#34;https://scholar.google.com/scholar?oi=bibs&amp;amp;hl=en&amp;amp;cites=2738057908192451281&amp;amp;as_sdt=5&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/cited%20by-5-blue.svg?style=flat&#34; title=&#34;Cited by 5&#34; alt=&#34;alt text&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;D. Deb, L. Best-Rowden, A. K. Jain, &#34;Face Recognition Performance Under Aging&#34;, to appear in CVPR, Workshop on Biometrics, 2017.&lt;/code&gt;&lt;/pre&gt;
+&lt;br/&gt;
+&lt;pre&gt;&lt;code&gt;D. Deb and K. Deb., Investigation of Mutation Schemes in Real-Parameter Genetic Algorithms., Proceedings of Swarm, Evolutionary and Memetic Computing Conference (SEMCCO-2012), Heidelberg: Springer. 2012&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://scholar.google.com/scholar?oi=bibs&amp;amp;hl=en&amp;amp;cites=2738057908192451281&amp;amp;as_sdt=5&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/cited%20by-5-blue.svg?style=flat&#34; title=&#34;Cited by 5&#34; alt=&#34;alt text&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Journal&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;K. Deb and D. Deb, Analyzing Mutation Schemes for Real- Parameter Genetic Algorithms., International Journal of Artificial Intelligence and Soft Computing (IJAISC), Inderscience Publishers. 2012&lt;/em&gt; &lt;a href=&#34;https://scholar.google.com/scholar?oi=bibs&amp;amp;hl=en&amp;amp;cites=2738057908192451281&amp;amp;as_sdt=5&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/cited%20by-40-brightgreen.svg?style=flat&#34; title=&#34;Cited by 40&#34; alt=&#34;alt text&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;K. Deb and D. Deb, Analyzing Mutation Schemes for Real- Parameter Genetic Algorithms., International Journal of Artificial Intelligence and Soft Computing (IJAISC), Inderscience Publishers. 2012&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&#34;https://scholar.google.com/scholar?oi=bibs&amp;amp;hl=en&amp;amp;cites=2738057908192451281&amp;amp;as_sdt=5&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/cited%20by-40-brightgreen.svg?style=flat&#34; title=&#34;Cited by 40&#34; alt=&#34;alt text&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;/dd&gt;
 &lt;dt&gt;&lt;a href=&#34;http://michaelteeuw.nl/tagged/magicmirror&#34; title=&#34;MagicMirror Website&#34;&gt;MagicMirror²&lt;/a&gt;&lt;/dt&gt;
 &lt;dd&gt;Developed various applications such as &lt;a href=&#34;https://github.com/ronny3050/phone-notification-mirror&#34;&gt;phone notification displays&lt;/a&gt;, &lt;a href=&#34;https://github.com/ronny3050/email-mirror/&#34;&gt;email client&lt;/a&gt;, &lt;a href=&#34;https://github.com/ronny3050/MMM-voice&#34;&gt;voice recognition&lt;/a&gt;, and &lt;a href=&#34;https://github.com/ronny3050/internet-monitor&#34;&gt;internet statistics monitoring&lt;/a&gt; for &lt;a href=&#34;http://michaelteeuw.nl/tagged/magicmirror&#34; title=&#34;MagicMirror Website&#34;&gt;MagicMirror²&lt;/a&gt;. &lt;a href=&#34;http://michaelteeuw.nl/tagged/magicmirror&#34; title=&#34;MagicMirror Website&#34;&gt;MagicMirror²&lt;/a&gt; is an open source modular smart mirror platform that has a monitor display behind a regular mirror.
@@ -494,7 +516,7 @@ var myChart = new Chart(ctx, {
                 }
             }]
         },
-        responsiveAnimationDuration: 500
+        responsiveAnimationDuration: 1000
     }
 });
 &lt;/script&gt;
@@ -525,7 +547,7 @@ var myChart = new Chart(ctx, {
 &lt;p&gt;&lt;strong&gt;Guitar&lt;/strong&gt; Band at Michigan State University&lt;/p&gt;
 &lt;hr /&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;mailto:debdebay@msu.edu&#34;&gt;debdebay@msu.edu&lt;/a&gt; • +1 (517) 930 0792 • 23 years old&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:debdebay@msu.edu&#34;&gt;debdebay@msu.edu&lt;/a&gt; • &lt;a href=&#34;tel:(517)930-0792&#34;&gt;+1 (517) 930 0792&lt;/a&gt; • 23 years old&lt;br /&gt;
 address - East Lansing, Michigan, USA&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
