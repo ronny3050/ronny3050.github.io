@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Debayan Deb</title>
-    <link>https://ronny3050.github.io/publication/</link>
+    <link>https://msu.edu/~debdebay/publication/</link>
     <description>Recent content in Publications on Debayan Deb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Debayan Deb</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    <atom:link href="/~debdebay/publication/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Face Recognition Under Aging</title>
-      <link>https://ronny3050.github.io/publication/face-recognition-under-aging/</link>
+      <link>https://msu.edu/~debdebay/publication/face-recognition-under-aging/</link>
       <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ronny3050.github.io/publication/face-recognition-under-aging/</guid>
+      <guid>https://msu.edu/~debdebay/publication/face-recognition-under-aging/</guid>
       <description>&lt;p&gt;Cite this paper as:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;D. Deb, L. Best-Rowden, A. K. Jain, &amp;quot;Face Recognition Performance Under Aging&amp;quot;, to appear in CVPR, Workshop on Biometrics, 2017.
@@ -25,10 +25,10 @@
     
     <item>
       <title>Analysing mutation schemes for real-parameter genetic algorithms</title>
-      <link>https://ronny3050.github.io/publication/analysing-mutation-schemes/</link>
+      <link>https://msu.edu/~debdebay/publication/analysing-mutation-schemes/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://ronny3050.github.io/publication/analysing-mutation-schemes/</guid>
+      <guid>https://msu.edu/~debdebay/publication/analysing-mutation-schemes/</guid>
       <description>&lt;p&gt;Cite this paper as:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;K. Deb, D. Deb, “Analysing mutation schemes for real-parameter genetic algorithms,” International Journal of Artificial Intelligence and Soft Computing. 4(1), 59280 (2014).
@@ -38,10 +38,10 @@
     
     <item>
       <title>Investigation of Mutation Schemes in Real-Parameter Genetic Algorithms</title>
-      <link>https://ronny3050.github.io/publication/investigation-mutation-schemes/</link>
+      <link>https://msu.edu/~debdebay/publication/investigation-mutation-schemes/</link>
       <pubDate>Thu, 20 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://ronny3050.github.io/publication/investigation-mutation-schemes/</guid>
+      <guid>https://msu.edu/~debdebay/publication/investigation-mutation-schemes/</guid>
       <description>&lt;p&gt;Cite this paper as:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;D. Deb, K. Deb. (2012) Investigation of Mutation Schemes in Real-Parameter Genetic Algorithms. Swarm, Evolutionary, and Memetic Computing. SEMCCO 2012. Lecture Notes in Computer Science, vol 7677. Springer, Berlin, Heidelberg

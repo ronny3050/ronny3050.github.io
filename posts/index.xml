@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Debayan Deb</title>
-    <link>https://ronny3050.github.io/posts/</link>
+    <link>https://msu.edu/~debdebay/posts/</link>
     <description>Recent content in Posts on Debayan Deb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Debayan Deb</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/posts/" rel="self" type="application/rss+xml" />
+    <atom:link href="/~debdebay/posts/" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

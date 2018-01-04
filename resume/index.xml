@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resumes on Debayan Deb</title>
-    <link>https://ronny3050.github.io/resume/</link>
+    <link>https://msu.edu/~debdebay/resume/</link>
     <description>Recent content in Resumes on Debayan Deb</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Debayan Deb</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/resume/" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/~debdebay/resume/" rel="self" type="application/rss+xml" />
+
     <item>
       <title></title>
-      <link>https://ronny3050.github.io/resume/</link>
+      <link>https://msu.edu/~debdebay/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ronny3050.github.io/resume/</guid>
+
+      <guid>https://msu.edu/~debdebay/resume/</guid>
       <description>&lt;!DOCTYPE html PUBLIC &#34;-//W3C//DTD XHTML 1.0 Transitional//EN&#34; &#34;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&#34;&gt;
 &lt;html xmlns=&#34;http://www.w3.org/1999/xhtml&#34;&gt;
 &lt;head&gt;
@@ -33,7 +33,7 @@
    * This CSS document is delivered to you under the CC BY-SA 3.0 License.
    * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
    */
-  
+
    html, body, div, span, applet, object, iframe,
    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
    a, abbr, acronym, address, big, cite, code,
@@ -58,7 +58,7 @@
    footer, header, hgroup, menu, nav, section {
    	display: block;
    }
-  
+
   /* Whole document */
   /* default font */
   @font-face {
@@ -69,7 +69,7 @@
     font-weight: normal;
     font-style: normal;
   }
-  
+
   /* semi-bold font */
   @font-face {
     font-family: &#39;RalewaySemiBold&#39;;
@@ -79,7 +79,7 @@
     font-weight: 200;
     font-style: normal;
   }
-  
+
   /* bold font */
   @font-face {
     font-family: &#39;RalewayBold&#39;;
@@ -89,7 +89,7 @@
     font-weight: bold;
     font-style: normal;
   }
-  
+
   /* bold font */
   @font-face {
     font-family: &#39;RalewayBlack&#39;;
@@ -99,7 +99,7 @@
     font-weight: bolder;
     font-style: normal;
   }
-  
+
   /* italics font */
   @font-face {
     font-family: &#39;RalewayRegularItalic&#39;;
@@ -109,7 +109,7 @@
     font-weight: normal;
     font-style: italic, oblique;
   }
-  
+
   /* italics font */
   @font-face {
     font-family: &#39;RalewaySemiBoldItalic&#39;;
@@ -119,7 +119,7 @@
     font-weight: 200;
     font-style: italic, oblique;
   }
-  
+
   /* italics font */
   @font-face {
     font-family: &#39;RalewayBoldItalic&#39;;
@@ -129,9 +129,9 @@
     font-weight: 600;
     font-style: italic, oblique;
   }
-  
-  
-  
+
+
+
   body {
       font-family: &#39;RalewayRegular&#39;, &#34;Helvetica Neue&#34;, Helvetica, Arial, sans-serif;
       font-weight: normal;
@@ -139,19 +139,19 @@
       margin: 0;
       padding: 0;
   }
-  
+
   strong {
     font-family: &#39;RalewayBold&#39;;
   }
-  
+
   em {
     font-family: &#39;RalewayRegularItalic&#39;;
   }
-  
+
   .semiBoldItalics {
     font-family: &#39;RalewaySemiBoldItalic&#39;;
   }
-  
+
   .resume {
     width: 47.6%;
     margin: auto;
@@ -160,7 +160,7 @@
     font-size: 20px;
     color: #131313;
   }
-  
+
   .headerBox {
     background: #F5F5F5;
     left:0;
@@ -171,14 +171,14 @@
     line-height: 1.3;
     text-align: center;
   }
-  
+
   .subtitle {
     color: #9c9b9b;
     text-align: center;
     font-size: 22px;
     letter-spacing: 20px;
   }
-  
+
   /* Title of the resume */
   h1 a {
       letter-spacing: 20px;
@@ -190,7 +190,7 @@
   h1 a:hover, a:active {
       color: #a31621;
   }
-  
+
   /* Titles of categories */
   h2 {
       /* This is called &#34;sectioncolor&#34; in the ConTeXt stylesheet. */
@@ -202,7 +202,7 @@
       margin-bottom: 2%;
       letter-spacing: 6px;
   }
-  
+
   .education {
     color: #000000;
     font-family: &#34;RalewayBold&#34;;
@@ -213,8 +213,8 @@
     margin-bottom: 2%;
     letter-spacing: 6px;
   }
-  
-  
+
+
   /* There is a bar just before each category */
   h2:before {
       content: &#34;&#34;;
@@ -232,7 +232,7 @@
       color: #FFFFFF;
       text-shadow: 1px 1px 1px #333;
   }*/
-  
+
   /* Definitions */
   dt {
       float: left;
@@ -250,12 +250,12 @@
       font-style: normal;
       font-weight: normal;
   }
-  
+
   pre {
     font-family: monospace;
     font-size: 18px;
   }
-  
+
   code {
       width: 6px;
       white-space: pre-wrap;       /* Since CSS 2.1 */
@@ -264,16 +264,16 @@
       white-space: -o-pre-wrap;    /* Opera 7 */
       word-wrap: break-word;       /* Internet Explorer 5.5+ */
   }
-  
+
   li {
     margin-bottom: 6px;
   }
-  
+
   /* Blockquotes */
   blockquote {
       text-align: center
   }
-  
+
   /* Links */
   a {
       text-decoration: none;
@@ -284,12 +284,12 @@
       text-decoration: none;
       text-shadow: 0.5px 0.5px 0.5px #333;
   }
-  
+
   /* Horizontal separators */
   hr {
       color: #A6A6A6;
   }
-  
+
   table {
       width: 100%;
   }
@@ -297,7 +297,7 @@
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&#34;headerBox&#34;&gt;
-&lt;h1 id=&#34;debayan-deb&#34;&gt;&lt;a href=&#34;http://ronny3050.github.io/&#34;&gt;DEBAYAN DEB&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;debayan-deb&#34;&gt;&lt;a href=&#34;https://msu.edu/~debdebay/&#34;&gt;DEBAYAN DEB&lt;/a&gt;&lt;/h1&gt;
 &lt;div class=&#34;subtitle&#34;&gt;
 PhD STUDENT / COMPUTER SCIENCE AND ENGINEERING
 &lt;/div&gt;
@@ -460,6 +460,6 @@ address - East Lansing, Michigan, USA&lt;/p&gt;
 &lt;/html&gt;
 </description>
     </item>
-    
+
   </channel>
 </rss>
